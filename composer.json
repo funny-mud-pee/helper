@@ -1,0 +1,21 @@
+{
+  "name": "funny-mud-pee/helper",
+  "description": "utility",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "funnymudpee",
+      "email": "2114164829@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  }
+}
