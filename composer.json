@@ -15,7 +15,7 @@
     "psr-4": {
     },
     "files": [
-      "src/helper.php"
+      "src/functions.php"
     ]
   }
 }
