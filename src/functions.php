@@ -77,7 +77,7 @@ function make_array(...$args): array
         }
         // 第n个元素
         $param = $args[$i];
-        if ($param instanceof Model) {
+        if (is_object($param) && method_exists($param, 'toArray')) {
             $param = $param->toArray();
         }
         // 第n+1个元素
